@@ -1,0 +1,2 @@
+import{u as t,a as p,b as n}from"./QTabs-3735ae95.js";import{c as e,h as m}from"./index-370d2373.js";import{u as b}from"./use-panel-9d796ced.js";import{k as u}from"./Logo-4d4ab573.js";const d=e({name:"QTab",props:t,emits:p,setup(s,{slots:a,emit:r}){const{renderTab:o}=n(s,a,r);return()=>o("div")}}),f=e({name:"QTabPanel",props:b,setup(s,{slots:a}){return()=>u("div",{class:"q-tab-panel",role:"tabpanel"},m(a.default))}});export{d as Q,f as a};
+//# sourceMappingURL=QTabPanel-680f8b9c.js.map

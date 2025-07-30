@@ -1,0 +1,2 @@
+import{c as u,aA as n,aB as i}from"./index-370d2373.js";import{u as m,a as c,b}from"./QTabs-3735ae95.js";import{h as l,w as T}from"./Logo-4d4ab573.js";const R=u({name:"QRouteTab",props:{...n,...m},emits:c,setup(e,{slots:t,emit:s}){const a=i({useDisableForRouterLinkProps:!1}),{renderTab:o,$tabs:r}=b(e,t,s,{exact:l(()=>e.exact),...a});return T(()=>`${e.name} | ${e.exact} | ${(a.resolvedLink.value||{}).href}`,()=>{r.verifyRouteModel()}),()=>o(a.linkTag.value,a.linkAttrs.value)}});export{R as Q};
+//# sourceMappingURL=QRouteTab-a6eb8740.js.map
